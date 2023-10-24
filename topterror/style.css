@@ -1,0 +1,59 @@
+/*Home Page*/
+#capsule {
+  width: 70%;
+  margin: auto;
+  border: solid 25px #6b1010;
+  border-radius: 30px;
+  background-color: black;
+}
+body {
+  color: white;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: black;
+}
+
+h1 {
+  font-size: 275%;
+}
+
+h2 {
+  word-spacing: 50px;
+  width: 70%;
+  margin: auto;
+  border: solid 25px #6b1010;
+  border-radius: 30px;
+}
+
+h3 {
+  font-size: 60px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: #6b1010;
+  color: white;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  width: 380px;
+  border-radius: 30px;
+  align-items: center;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+
+p {
+  font-size: 20px;
+}
+
+footer {
+  margin: auto;
+  justify-content: space-between;
+}
+
+:visited {
+  text-decoration: none;
+  color: white;
+}
